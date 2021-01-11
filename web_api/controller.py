@@ -37,7 +37,7 @@ def predict():
         img_id = json_data.get("img_id")
 
         result = make_prediction(img_url=img_url, img_id=img_id)
-        _logger.info(f'Outputs: {result}')
+        _logger.info(f'Outputs: {output}')
 
         prediction = result.get('prediction')
         score = float(result.get('score'))
