@@ -1,0 +1,8 @@
+numpy
+keras
+
+# server
+flask==1.1.2
+
+# building nn
+tensorflow==2.4.0
